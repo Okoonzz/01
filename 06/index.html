@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script src="main.js" ></script>
+	<form>
+		Nhập tháng <input type="number" id="input_thang" >
+		<br>
+		<br>
+		<br>
+		<br>
+		Nhập năm <input type="number" id="input_nam">
+		<br>
+		<!-- type để nút không tải lại trang. Nếu type khác sẽ tải lại trang -->
+		<!-- 'in_ra' là tên hàm để liên kết với input bên JS -->
+		<button type="button" onclick="in_ra()">Kiểm tra</button>
+	</form>
+	<!-- ghi kết quả trực tiếp và div với id này -->
+	<!-- nếu không có id này kết quả sẽ ghi đè lên trang mới -->
+	<div id="ghi_ket_qua"></div>
+</body>
+</html>
+
