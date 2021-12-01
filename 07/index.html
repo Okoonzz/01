@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script src="main.js" ></script>
+	<form>
+		Nhập số <input type="number" id="input_so_le_chan" >
+		<br>
+		<br>
+		Số chẵn, số lẻ và số thập phân <input type="radio" name="gender" id="tinh_chan_le_thap" /> 
+		<br>
+		<br>
+		Số nguyên tố <input type="radio" name="gender" id="so_nguyen_to"/> 
+		<br>
+		<br>
+		In số <input type="radio" name="gender" id="in_ra_so"/>
+		<br>
+		<br>
+		Số lần kiểm tra <input type="radio" name="gender" id="in_nhap_so"/>
+		 <!-- type để nút không tải lại trang. Nếu type khác sẽ tải lại trang  -->
+		<!-- 'in_ra' là tên hàm để liên kết với input bên JS -->
+		
+	</form>
+	<button id="button" type="button" onclick="in_ra_so_le()">Kiểm tra</button>
+		 <!-- ghi kết quả trực tiếp và div với id này  -->
+		<!-- nếu không có id này kết quả sẽ ghi đè lên trang mới -->
+	<div id="ghi_ket_qua"></div> 
+</body>
+</html>
+
