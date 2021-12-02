@@ -60,6 +60,13 @@ function in_ra() {
 	}
 	
 }
-
-
+// Nhấn enter
+document.addEventListener('keypress', event =>{
+                if(event.keyCode === 13 || event.which === 13)
+                {
+                    document.getElementById('button').click();
+                    event.preventDefault();
+                    return false;
+                }
+            });
 
